@@ -1,5 +1,5 @@
 # zabbix-disk-perf
-Binary written in for use in discovering/monitoring disk(s) in linux via zabbix external checks
+Binary written in go for use in discovering/monitoring disk(s) in linux via Zabbix agent & userparams
 
 ### Discovery 
 Currently Disks are discovered via passing --discovery arg, which presents a listing of disks (and partions) in JSON, including their type (SSD or HDD).
