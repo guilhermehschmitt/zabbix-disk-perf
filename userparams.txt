@@ -1,0 +1,21 @@
+#HDD user params
+UserParameter=disk.hdd.discovery[*],<installation_dir>/disk_stat_bin --discovery=true
+UserParameter=disk.hdd.writeops[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=wiops
+UserParameter=disk.hdd.readops[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=riops
+UserParameter=disk.hdd.writeawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=wawait
+UserParameter=disk.hdd.readawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=rawait
+UserParameter=disk.hdd.await[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=await
+UserParameter=disk.hdd.curr_writeawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=cur_wawait
+UserParameter=disk.hdd.curr_readawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=cur_rawait
+UserParameter=disk.hdd.curr_await[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=cur_await
+
+#SSD user params
+UserParameter=disk.ssd.discovery[*],<installation_dir>/disk_stat_bin --discovery=true
+UserParameter=disk.ssd.writeops[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=wiops
+UserParameter=disk.ssd.readops[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=riops
+UserParameter=disk.ssd.writeawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=wawait
+UserParameter=disk.ssd.readawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=rawait
+UserParameter=disk.ssd.await[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=await
+UserParameter=disk.ssd.cur_writeawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=cur_wawait
+UserParameter=disk.ssd.cur_readawait[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=cur_rawait
+UserParameter=disk.ssd.cur_await[*],<installation_dir>/disk_stat_bin --disk=$1 --metric=cur_await
