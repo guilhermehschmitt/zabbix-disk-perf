@@ -9,3 +9,5 @@ Currently Disks are discovered via passing --discovery arg, which presents a lis
 {"data":[{"{#DISKNAME}":"vda","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vda1","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vda2","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vda5","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdc","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdc1","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdd","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdd1","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vde","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vde1","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdf","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdg","{#DISKTYPE}":"hdd"},{"{#DISKNAME}":"vdg1","{#DISKTYPE}":"hdd"}]}
 ```
 
+### Graph generated from Data
+![Alt text](/images/graph.png?raw=true "Graph of iops/latency generated from data" )
